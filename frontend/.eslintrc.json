@@ -21,6 +21,7 @@
         "require-jsdoc" : 0,
         "semi": ["error", "always"],
         "quotes": ["error", "double"],
-        "max-len":["error",{"code":100}]
+        "max-len":["error",{"code":100}],
+        "linebreak-style": 0
     }
 }

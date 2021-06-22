@@ -2,7 +2,7 @@
 import React from "react";
 import "./videodisplay.scss";
 import captureSelfVideo from "../SelfVideo/SelfVideo";
-import video from "../../assets/video.mp4";
+// import video from "../../assets/video.mp4";
 import PropTypes from "prop-types";
 class VideoDisplay extends React.Component {
   constructor(props) {
