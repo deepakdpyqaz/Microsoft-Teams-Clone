@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: move to front-end directory
-      - run: cd frontend/
+        run: cd frontend/
 
       - name: Run linter
-      - run: npm run lint
+        run: npm run lint
