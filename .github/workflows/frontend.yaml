@@ -8,10 +8,17 @@ on:
 jobs:
   codestyle:
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        working-directory: ./frontend/
     steps:
       - uses: actions/checkout@v2
 
+      - name: Node js setup
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - name: Install packages
+        run: npm install
       - name: Run linter
-        working-directory: ./frontend/
         run: npm run lint
