@@ -11,12 +11,10 @@ const CallControl = (props) => {
     const [control, setControl] = useState({ 'microphone': true, 'camera': true });
     const switchControl = (controlProperty) => {
         setControl((prevState) => {
-            return {
-                ...prevState,
-                [controlProperty]: !prevState[controlProperty]
-            }
+            let newState = {...prevState,[controlProperty]:!prevState[controlProperty]};
+            props.changeControl(newState);
+            return newState;
         })
-        props.changeControl(control);
     }
 
     return (
