@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Link,
+  Route,
+} from "react-router-dom";
+import VideoCallScreen from './Views/VideoCallScreen/VideoCallScreen';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Switch>
+        <Route path="/videocall">
+            <VideoCallScreen/>
+        </Route>
+        <Route path="/">
+          <div>
+              <Link to="/videocall">Link</Link>
+          </div>
+        </Route>
+      </Switch>
+    </Router>
+    );
 }
 
 export default App;

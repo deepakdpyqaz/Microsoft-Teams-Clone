@@ -1,0 +1,16 @@
+.call_control{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 1vh;
+    z-index: 1000;
+    left: 50%;
+    width: 50vw;
+    transform: translate(-50%,0%);
+    max-width: 800px;
+    min-width: 250px;
+    background: #121212DD;
+    padding: 3px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}

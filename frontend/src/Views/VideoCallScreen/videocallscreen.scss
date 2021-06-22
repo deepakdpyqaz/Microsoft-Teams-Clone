@@ -1,0 +1,11 @@
+.video_display_wrapper{
+    background: #121212;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25vw,1fr));
+    grid-gap: 10px;
+    justify-content: space-around;
+    grid-template-rows: repeat(auto-fit,minmax(25vh,1fr));
+}
