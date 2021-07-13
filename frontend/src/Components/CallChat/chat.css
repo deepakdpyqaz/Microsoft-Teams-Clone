@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Cardo&family=Merriweather:ital,wght@1,900&display=swap');
+#heading{
+    font-family: 'Arvo';
+    color: #1D5D6A;
+    font-size: 25px;
+}
+.MuiPaper-root{
+    width: 20rem;
+}
+#chats{
+    flex:1; 
+    overflow-y: scroll;
+}
+#bottom{
+    margin-bottom: 3%;
+    margin-top: auto;
+}
+#typebox{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+#send{
+    margin-top: 0%;
+}
+#message{
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 12px;
+    background-color: #C2D6DA;
+    text-align-last: left;
+}
+#messagebox{
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 5px;
+}
+#time{
+    margin-bottom: 0rem ;
+}
+#textmessage{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+#name{
+    margin-bottom: 0rem ;
+}

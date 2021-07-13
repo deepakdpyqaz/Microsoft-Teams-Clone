@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Merriweather:ital,wght@1,900&display=swap');
+
+.bottom{
+    font-family: 'Merriweather';
+    font-size: 4rem;
+    color: #FFF;
+    text-align:  right;
+    padding-right: 10px;
+}

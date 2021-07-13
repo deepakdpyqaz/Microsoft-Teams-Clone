@@ -1,0 +1,26 @@
+#logoutWrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.initials-avatar{
+    background-color: #FDFFBC !important;
+    height: 42px !important;
+    width: 45px !important;
+    color:#0f1c24 !important;
+}
+.initials-avatar div{
+    
+    color:#0f1c24 !important;
+}
+#logout{
+    display: none;
+    background-color: #E0EBED !important;
+    color: #215566 !important;
+    position: absolute;
+    display: block;
+    top: 100%;
+}

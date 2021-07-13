@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Cardo&family=Merriweather:ital,wght@1,900&display=swap');
+#caption{
+    font-family: 'Arvo';
+    font-size: 40px;
+    color:rgb(3,31,48);
+}
+#hr{
+    margin-top: 0rem;
+}
+.MuiPaper-root{
+    width: 20rem;
+}
+#chats{
+    flex:1; 
+    overflow-y: scroll;
+}
+#bottom{
+    margin-bottom: 3%;
+    margin-top: auto;
+}
+#type-box{
+    margin-top: 0.3rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+}
+#send-btn{
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    height: 39px;
+    margin-bottom: 4px;
+}
+.message{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.fullChat{
+    margin: 5px;
+    padding-right: 5px;
+    border: 2px solid #FFFFFF;
+    border-radius: 12px;
+    background-color: #C2D6DA;
+    text-align-last: left;
+    clear:both;
+    float: left;
+}
+.fullChat.selfChat{
+    float: right;
+    background-color: #536265;
+    color:#fff;
+}
+.time{
+    margin-bottom: 0rem ;
+    padding: 5px;
+    float: right;
+}
+.textmessage{
+    margin: 0;
+    padding: 0;
+}
+#chat-window{
+    max-width: 900px;
+    background-color: white;
+    margin: auto;
+    height: 60vh;
+}
+.scroll{
+    height: 50vh !important;
+}
+#form{
+    display: inline-flex;
+    width: 93%;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 4px;
+}
+#bottom-words{
+    margin-top: 4.5rem;
+}
