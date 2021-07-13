@@ -2,15 +2,14 @@
     display: flex;
     justify-content: space-around;
     position: absolute;
-    bottom: 1vh;
-    z-index: 1000;
+    width: 80vw;
     left: 50%;
-    width: 50vw;
-    transform: translate(-50%,0%);
-    max-width: 800px;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    bottom: 0vh;
+    z-index: 1000;
     min-width: 250px;
-    background: #121212DD;
+    background: #121212FF;
     padding: 3px;
-    margin-bottom: 50px;
-    border-radius: 20px;
+
 }

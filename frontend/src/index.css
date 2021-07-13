@@ -6,3 +6,9 @@
 a{
     text-decoration-line: none;
 }
+body{
+    background-color: #C2D6DA !important;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+} 

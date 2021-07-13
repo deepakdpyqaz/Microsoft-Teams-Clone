@@ -1,5 +1,68 @@
-# Microsoft Teams Clone by Deepak
+# Microsoft Teams clone
 
-### Front-end: Code of UI in react
+## Folder structure
 
-### Back-end: Code of Backend in node
+- */frontend/Views* : This is for storing pages
+- */frontend/Components* : This is for storing elements/components
+- */backend*: This contains server files
+
+
+
+## Docker setup
+- Change the /frontend/src/constants.js add the IP of your system
+
+- Run the docker compose command
+```
+docker-compose up
+```
+## Installation
+1. Clone the repo
+## Front-end Setup
+1. Change the directory to /frontend
+2. Install the dependencies
+```
+npm install
+```
+OR
+```
+yarn
+```
+
+3. Start the server
+```
+npm run start
+```
+
+OR
+
+```
+yarn start
+```
+
+
+## Start the backed server
+
+1. Change the directory to backend 
+
+2. Install the packages
+```
+npm install
+```
+
+OR
+
+```
+yarn 
+```
+
+3. Enter the dev command
+```
+npm run dev
+```
+
+OR
+
+
+```
+yarn dev
+```
