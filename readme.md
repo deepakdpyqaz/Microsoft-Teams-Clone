@@ -9,7 +9,6 @@
 
 
 ## Docker setup
-- Change the /frontend/src/constants.js add the IP of your system
 
 - Run the docker compose command
 ```
